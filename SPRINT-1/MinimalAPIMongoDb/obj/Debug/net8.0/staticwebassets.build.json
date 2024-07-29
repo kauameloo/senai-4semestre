@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "1xjwagRBjObzfBqQGI3loNXsRFDaogkHpizn/4R324w=",
+  "Source": "MinimalAPIMongoDB",
+  "BasePath": "_content/MinimalAPIMongoDB",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
