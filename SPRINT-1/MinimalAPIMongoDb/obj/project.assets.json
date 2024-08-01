@@ -1229,11 +1229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kaua-\\OneDrive\\Área de Trabalho\\MinimalAPIMongoDb\\MinimalAPIMongoDB.csproj",
+      "projectUniqueName": "C:\\Users\\kaua-\\OneDrive\\Área de Trabalho\\senai-4semestre\\SPRINT-1\\MinimalAPIMongoDb\\MinimalAPIMongoDB.csproj",
       "projectName": "MinimalAPIMongoDB",
-      "projectPath": "C:\\Users\\kaua-\\OneDrive\\Área de Trabalho\\MinimalAPIMongoDb\\MinimalAPIMongoDB.csproj",
+      "projectPath": "C:\\Users\\kaua-\\OneDrive\\Área de Trabalho\\senai-4semestre\\SPRINT-1\\MinimalAPIMongoDb\\MinimalAPIMongoDB.csproj",
       "packagesPath": "C:\\Users\\kaua-\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kaua-\\OneDrive\\Área de Trabalho\\MinimalAPIMongoDb\\obj\\",
+      "outputPath": "C:\\Users\\kaua-\\OneDrive\\Área de Trabalho\\senai-4semestre\\SPRINT-1\\MinimalAPIMongoDb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kaua-\\AppData\\Roaming\\NuGet\\NuGet.Config",

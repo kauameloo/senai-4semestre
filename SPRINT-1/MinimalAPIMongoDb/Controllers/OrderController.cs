@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using MinimalAPIMongoDB.Domains;
 using MinimalAPIMongoDB.Services;
+using MinimalAPIMongoDB.ViewModels;
 using MongoDB.Driver;
 
 namespace MinimalAPIMongoDB.Controllers
@@ -8,13 +10,17 @@ namespace MinimalAPIMongoDB.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [Produces("application/json")]
-    public class OrderController : Controller
+    public class OrderController : ControllerBase
     {
         private readonly IMongoCollection<Order> _order;
+        private readonly IMongoCollection<Client> _client;
+        private readonly IMongoCollection<Product> _product;
 
         public OrderController(MongoDbService mongoDbService)
         {
             _order = mongoDbService.GetDatabase.GetCollection<Order>("order");
+            _client = mongoDbService.GetDatabase.GetCollection<Client>("client");
+            _product = mongoDbService.GetDatabase.GetCollection<Product>("product");
         }
 
         [HttpGet]
@@ -23,21 +29,32 @@ namespace MinimalAPIMongoDB.Controllers
             try
             {
                 var orders = await _order.Find(FilterDefinition<Order>.Empty).ToListAsync();
-                return Ok(orders);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.InnerException.Message);
-            }
-        }
 
-        [HttpPost]
-        public ActionResult Post(Order order)
-        {
-            try
-            {
-                _order.InsertOne(order);
-                return Ok();
+                foreach (var order in orders)
+                {
+                    if (order.ProductId != null)
+                    {
+                        var filter = Builders<Product>.Filter.In(p => p.Id, order.ProductId);
+
+                        order.Products = await _product.Find(filter).ToListAsync();
+                    }
+
+                    if(order.ClientId != null)
+                    {
+                        order.Client = await _client.Find(x => x.Id == order.ClientId).FirstOrDefaultAsync();
+                    }
+                }
+
+
+                return Ok(orders);
+
+                //Order order = new Order();
+                //List<Product> products = await _product.Find(x => x.Id == order.Id).ToListAsync();
+
+
+                //order.Products = products;
+
+                //return Ok(order);
             }
             catch (Exception ex)
             {
@@ -46,17 +63,65 @@ namespace MinimalAPIMongoDB.Controllers
         }
 
         [HttpGet("{id}")]
-        public ActionResult GetById(string id)
+        public async Task<ActionResult<Order>> GetById(string id)
         {
             try
             {
-                var orderBuscado = _order.Find(u => u.Id == id).FirstOrDefault();
+                var order = await _order.Find(x => x.Id == id).FirstOrDefaultAsync();
 
-                return orderBuscado is not null ? Ok(orderBuscado) : NotFound();
+                if (order == null)
+                {
+                    return BadRequest("Pedido não encontrado.");
+                }
+
+                if (order.ProductId != null)
+                {
+                    var filter = Builders<Product>.Filter.In(x => x.Id, order.ProductId);
+
+                    order.Products = await _product.Find(filter).ToListAsync();
+                }
+
+                if (order.ClientId != null)
+                {
+                    order.Client = await _client.Find(x => x.Id == order.ClientId).FirstOrDefaultAsync();
+                }
+
+                return Ok(order);
             }
             catch (Exception ex)
             {
-                return (BadRequest(ex.Message));
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Order>> Post(OrderViewModel orderViewModel)
+        {
+            try
+            {
+                Order order = new Order();
+
+                order.Id = orderViewModel.Id;
+                order.Date = order.Date;
+                order.Status = orderViewModel.Status;
+                order.ProductId = orderViewModel.ProductId;
+                order.ClientId = orderViewModel.ClientId;
+
+                var client = await _client.Find(x => x.Id == orderViewModel.ClientId).FirstOrDefaultAsync();
+
+                if (client == null)
+                {
+                    return NotFound("Cliente não existe!");
+                }
+                order.Client = client;
+
+                await _order.InsertOneAsync(order);
+
+                return Ok(order);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
             }
         }
 
@@ -65,37 +130,36 @@ namespace MinimalAPIMongoDB.Controllers
         {
             try
             {
-                var orderBuscado = _order.FindOneAndDelete(c => c.Id == id);
+                _order.FindOneAndDelete(x => x.Id == id);
 
                 return Ok();
             }
             catch (Exception ex)
             {
-                return (BadRequest(ex.Message));
+                return BadRequest(ex.Message);
             }
         }
 
         [HttpPut]
-        public async Task<ActionResult> Update(Order c)
+        public async Task<ActionResult> Update(Order order)
         {
             try
             {
                 //buscar por id (filtro)
-                var filter = Builders<Order>.Filter.Eq(x => x.Id, c.Id);
+                var filter = Builders<Order>.Filter.Eq(x => x.Id, order.Id);
 
                 if (filter != null)
                 {
                     //substituindo o objeto buscado pelo novo objeto
-                    await _order.ReplaceOneAsync(filter, c);
+                    await _order.ReplaceOneAsync(filter, order);
+
                     return Ok();
                 }
 
                 return NotFound();
-
             }
             catch (Exception ex)
             {
-
                 return BadRequest(ex.Message);
             }
         }
