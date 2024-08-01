@@ -1,0 +1,14 @@
+C:\Users\kaua-\OneDrive\Área de Trabalho\ConversaoTemp\bin\Debug\net8.0\ConversaoTemp.exe
+C:\Users\kaua-\OneDrive\Área de Trabalho\ConversaoTemp\bin\Debug\net8.0\ConversaoTemp.deps.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\ConversaoTemp\bin\Debug\net8.0\ConversaoTemp.runtimeconfig.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\ConversaoTemp\bin\Debug\net8.0\ConversaoTemp.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\ConversaoTemp\bin\Debug\net8.0\ConversaoTemp.pdb
+C:\Users\kaua-\OneDrive\Área de Trabalho\ConversaoTemp\obj\Debug\net8.0\ConversaoTemp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaua-\OneDrive\Área de Trabalho\ConversaoTemp\obj\Debug\net8.0\ConversaoTemp.AssemblyInfoInputs.cache
+C:\Users\kaua-\OneDrive\Área de Trabalho\ConversaoTemp\obj\Debug\net8.0\ConversaoTemp.AssemblyInfo.cs
+C:\Users\kaua-\OneDrive\Área de Trabalho\ConversaoTemp\obj\Debug\net8.0\ConversaoTemp.csproj.CoreCompileInputs.cache
+C:\Users\kaua-\OneDrive\Área de Trabalho\ConversaoTemp\obj\Debug\net8.0\ConversaoTemp.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\ConversaoTemp\obj\Debug\net8.0\refint\ConversaoTemp.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\ConversaoTemp\obj\Debug\net8.0\ConversaoTemp.pdb
+C:\Users\kaua-\OneDrive\Área de Trabalho\ConversaoTemp\obj\Debug\net8.0\ConversaoTemp.genruntimeconfig.cache
+C:\Users\kaua-\OneDrive\Área de Trabalho\ConversaoTemp\obj\Debug\net8.0\ref\ConversaoTemp.dll

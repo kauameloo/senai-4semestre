@@ -1,0 +1,14 @@
+C:\Users\kaua-\OneDrive\Área de Trabalho\calculo\bin\Debug\net8.0\calculo.exe
+C:\Users\kaua-\OneDrive\Área de Trabalho\calculo\bin\Debug\net8.0\calculo.deps.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\calculo\bin\Debug\net8.0\calculo.runtimeconfig.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\calculo\bin\Debug\net8.0\calculo.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\calculo\bin\Debug\net8.0\calculo.pdb
+C:\Users\kaua-\OneDrive\Área de Trabalho\calculo\obj\Debug\net8.0\calculo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaua-\OneDrive\Área de Trabalho\calculo\obj\Debug\net8.0\calculo.AssemblyInfoInputs.cache
+C:\Users\kaua-\OneDrive\Área de Trabalho\calculo\obj\Debug\net8.0\calculo.AssemblyInfo.cs
+C:\Users\kaua-\OneDrive\Área de Trabalho\calculo\obj\Debug\net8.0\calculo.csproj.CoreCompileInputs.cache
+C:\Users\kaua-\OneDrive\Área de Trabalho\calculo\obj\Debug\net8.0\calculo.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\calculo\obj\Debug\net8.0\refint\calculo.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\calculo\obj\Debug\net8.0\calculo.pdb
+C:\Users\kaua-\OneDrive\Área de Trabalho\calculo\obj\Debug\net8.0\calculo.genruntimeconfig.cache
+C:\Users\kaua-\OneDrive\Área de Trabalho\calculo\obj\Debug\net8.0\ref\calculo.dll

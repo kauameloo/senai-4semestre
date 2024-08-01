@@ -1,0 +1,14 @@
+C:\Users\kaua-\OneDrive\Área de Trabalho\bibliotec\bin\Debug\net8.0\bibliotec.exe
+C:\Users\kaua-\OneDrive\Área de Trabalho\bibliotec\bin\Debug\net8.0\bibliotec.deps.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\bibliotec\bin\Debug\net8.0\bibliotec.runtimeconfig.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\bibliotec\bin\Debug\net8.0\bibliotec.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\bibliotec\bin\Debug\net8.0\bibliotec.pdb
+C:\Users\kaua-\OneDrive\Área de Trabalho\bibliotec\obj\Debug\net8.0\bibliotec.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaua-\OneDrive\Área de Trabalho\bibliotec\obj\Debug\net8.0\bibliotec.AssemblyInfoInputs.cache
+C:\Users\kaua-\OneDrive\Área de Trabalho\bibliotec\obj\Debug\net8.0\bibliotec.AssemblyInfo.cs
+C:\Users\kaua-\OneDrive\Área de Trabalho\bibliotec\obj\Debug\net8.0\bibliotec.csproj.CoreCompileInputs.cache
+C:\Users\kaua-\OneDrive\Área de Trabalho\bibliotec\obj\Debug\net8.0\bibliotec.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\bibliotec\obj\Debug\net8.0\refint\bibliotec.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\bibliotec\obj\Debug\net8.0\bibliotec.pdb
+C:\Users\kaua-\OneDrive\Área de Trabalho\bibliotec\obj\Debug\net8.0\bibliotec.genruntimeconfig.cache
+C:\Users\kaua-\OneDrive\Área de Trabalho\bibliotec\obj\Debug\net8.0\ref\bibliotec.dll

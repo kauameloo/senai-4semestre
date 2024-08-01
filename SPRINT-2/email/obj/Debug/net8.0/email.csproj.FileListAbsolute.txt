@@ -1,0 +1,14 @@
+C:\Users\kaua-\OneDrive\Área de Trabalho\email\bin\Debug\net8.0\email.exe
+C:\Users\kaua-\OneDrive\Área de Trabalho\email\bin\Debug\net8.0\email.deps.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\email\bin\Debug\net8.0\email.runtimeconfig.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\email\bin\Debug\net8.0\email.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\email\bin\Debug\net8.0\email.pdb
+C:\Users\kaua-\OneDrive\Área de Trabalho\email\obj\Debug\net8.0\email.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaua-\OneDrive\Área de Trabalho\email\obj\Debug\net8.0\email.AssemblyInfoInputs.cache
+C:\Users\kaua-\OneDrive\Área de Trabalho\email\obj\Debug\net8.0\email.AssemblyInfo.cs
+C:\Users\kaua-\OneDrive\Área de Trabalho\email\obj\Debug\net8.0\email.csproj.CoreCompileInputs.cache
+C:\Users\kaua-\OneDrive\Área de Trabalho\email\obj\Debug\net8.0\email.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\email\obj\Debug\net8.0\refint\email.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\email\obj\Debug\net8.0\email.pdb
+C:\Users\kaua-\OneDrive\Área de Trabalho\email\obj\Debug\net8.0\email.genruntimeconfig.cache
+C:\Users\kaua-\OneDrive\Área de Trabalho\email\obj\Debug\net8.0\ref\email.dll

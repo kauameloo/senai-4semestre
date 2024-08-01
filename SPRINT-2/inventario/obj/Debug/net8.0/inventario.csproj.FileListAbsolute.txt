@@ -1,0 +1,14 @@
+C:\Users\kaua-\OneDrive\Área de Trabalho\inventario\bin\Debug\net8.0\inventario.exe
+C:\Users\kaua-\OneDrive\Área de Trabalho\inventario\bin\Debug\net8.0\inventario.deps.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\inventario\bin\Debug\net8.0\inventario.runtimeconfig.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\inventario\bin\Debug\net8.0\inventario.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\inventario\bin\Debug\net8.0\inventario.pdb
+C:\Users\kaua-\OneDrive\Área de Trabalho\inventario\obj\Debug\net8.0\inventario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaua-\OneDrive\Área de Trabalho\inventario\obj\Debug\net8.0\inventario.AssemblyInfoInputs.cache
+C:\Users\kaua-\OneDrive\Área de Trabalho\inventario\obj\Debug\net8.0\inventario.AssemblyInfo.cs
+C:\Users\kaua-\OneDrive\Área de Trabalho\inventario\obj\Debug\net8.0\inventario.csproj.CoreCompileInputs.cache
+C:\Users\kaua-\OneDrive\Área de Trabalho\inventario\obj\Debug\net8.0\inventario.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\inventario\obj\Debug\net8.0\refint\inventario.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\inventario\obj\Debug\net8.0\inventario.pdb
+C:\Users\kaua-\OneDrive\Área de Trabalho\inventario\obj\Debug\net8.0\inventario.genruntimeconfig.cache
+C:\Users\kaua-\OneDrive\Área de Trabalho\inventario\obj\Debug\net8.0\ref\inventario.dll

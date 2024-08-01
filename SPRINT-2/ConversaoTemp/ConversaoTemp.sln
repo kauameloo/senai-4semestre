@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversaoTemp", "ConversaoTemp.csproj", "{221A9EDC-F3EC-4F47-9D15-2F22D688A3D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversaoTemp.Test", "..\ConversaoTemp.Test\ConversaoTemp.Test.csproj", "{38C06AF1-8636-42CC-9656-3340A25D4DA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{221A9EDC-F3EC-4F47-9D15-2F22D688A3D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221A9EDC-F3EC-4F47-9D15-2F22D688A3D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221A9EDC-F3EC-4F47-9D15-2F22D688A3D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221A9EDC-F3EC-4F47-9D15-2F22D688A3D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C06AF1-8636-42CC-9656-3340A25D4DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C06AF1-8636-42CC-9656-3340A25D4DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C06AF1-8636-42CC-9656-3340A25D4DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C06AF1-8636-42CC-9656-3340A25D4DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37F0FC66-719E-4717-B954-36738C0F5720}
+	EndGlobalSection
+EndGlobal

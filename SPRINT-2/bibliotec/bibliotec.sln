@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bibliotec", "bibliotec.csproj", "{D26AF522-DA09-4F2E-AF6D-AEA4C18692EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bibliotec.test", "..\bibliotec.test\bibliotec.test.csproj", "{01E64759-186C-48B0-B200-411D3C599F06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D26AF522-DA09-4F2E-AF6D-AEA4C18692EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D26AF522-DA09-4F2E-AF6D-AEA4C18692EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D26AF522-DA09-4F2E-AF6D-AEA4C18692EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D26AF522-DA09-4F2E-AF6D-AEA4C18692EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E64759-186C-48B0-B200-411D3C599F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E64759-186C-48B0-B200-411D3C599F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E64759-186C-48B0-B200-411D3C599F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E64759-186C-48B0-B200-411D3C599F06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73678A62-FCFB-4988-A721-56909BDD6234}
+	EndGlobalSection
+EndGlobal
