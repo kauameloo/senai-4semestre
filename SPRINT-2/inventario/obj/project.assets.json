@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kaua-\\OneDrive\\Área de Trabalho\\inventario\\inventario.csproj",
+      "projectUniqueName": "C:\\Users\\kaua-\\OneDrive\\Área de Trabalho\\senai-4semestre\\SPRINT-2\\inventario\\inventario.csproj",
       "projectName": "inventario",
-      "projectPath": "C:\\Users\\kaua-\\OneDrive\\Área de Trabalho\\inventario\\inventario.csproj",
+      "projectPath": "C:\\Users\\kaua-\\OneDrive\\Área de Trabalho\\senai-4semestre\\SPRINT-2\\inventario\\inventario.csproj",
       "packagesPath": "C:\\Users\\kaua-\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kaua-\\OneDrive\\Área de Trabalho\\inventario\\obj\\",
+      "outputPath": "C:\\Users\\kaua-\\OneDrive\\Área de Trabalho\\senai-4semestre\\SPRINT-2\\inventario\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kaua-\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConversaoTemp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c467aab8f15b2ffc44a0af3eebe66ffac118bdfe")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConversaoTemp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConversaoTemp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
