@@ -218,3 +218,12 @@ C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\ProdutoApiTes
 C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\ProdutoApiTest\ProdutoApiTest\ProdutosApiTestUnit\obj\Debug\net8.0\ProdutosApiTestUnit.pdb
 C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\ProdutoApiTest\ProdutoApiTest\ProdutosApiTestUnit\obj\Debug\net8.0\ProdutosApiTestUnit.genruntimeconfig.cache
 C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\ProdutoApiTest\ProdutoApiTest\ProdutosApiTestUnit\obj\Debug\net8.0\ref\ProdutosApiTestUnit.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\ProdutoApiTest\ProdutoApiTest\ProdutosApiTestUnit\bin\Debug\net8.0\ProdutosApiTestUnit\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\ProdutoApiTest\ProdutoApiTest\ProdutosApiTestUnit\bin\Debug\net8.0\ProdutosApiTestUnit\bin\Debug\net8.0\appsettings.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\ProdutoApiTest\ProdutoApiTest\ProdutosApiTestUnit\bin\Debug\net8.0\ProdutosApiTestUnit\bin\Debug\net8.0\ProdutoApiTest.deps.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\ProdutoApiTest\ProdutoApiTest\ProdutosApiTestUnit\bin\Debug\net8.0\ProdutosApiTestUnit\bin\Debug\net8.0\ProdutoApiTest.runtimeconfig.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\ProdutoApiTest\ProdutoApiTest\ProdutosApiTestUnit\bin\Debug\net8.0\ProdutosApiTestUnit\bin\Debug\net8.0\ProdutosApiTestUnit.deps.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\ProdutoApiTest\ProdutoApiTest\ProdutosApiTestUnit\bin\Debug\net8.0\ProdutosApiTestUnit\bin\Debug\net8.0\ProdutosApiTestUnit.runtimeconfig.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\ProdutoApiTest\ProdutoApiTest\ProdutosApiTestUnit\bin\Debug\net8.0\ProdutosApiTestUnit\bin\Debug\net8.0\ProdutosApiTestUnit\obj\ProdutosApiTestUnit.csproj.nuget.dgspec.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\ProdutoApiTest\ProdutoApiTest\ProdutosApiTestUnit\bin\Debug\net8.0\ProdutosApiTestUnit\bin\Debug\net8.0\ProdutosApiTestUnit\obj\project.assets.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\ProdutoApiTest\ProdutoApiTest\ProdutosApiTestUnit\bin\Debug\net8.0\ProdutosApiTestUnit\obj\Debug\net8.0\ProdutosApiTestUnit.sourcelink.json
