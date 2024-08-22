@@ -4,19 +4,27 @@ import { Dates } from "../Date/Dates";
 import { SearchBar } from "../SearchBar/SearchBar";
 import { Button } from "../Buttons/Buttons";
 import { List } from "../Cards/Cards";
+import { ModalNewTask } from "../ModalNewTask/ModalNewTask";
+import Modal from "react-modal";
+
+Modal.setAppElement("#root");
 
 const Main = () => {
-  const [modalIsOpen, setIsOpen] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
-
+  function openModal() {
+    setShowModal(true);
+  }
   return (
     <ContainerMain>
       <Dates />
       <SearchBar />
       <ContainerLB>
         <List />
-        <Button text={"Nova tarefa"}/>
+        <Button text={"Nova tarefa"} onClick={openModal} />
       </ContainerLB>
+
+      <ModalNewTask isOpen={showModal} />
     </ContainerMain>
   );
 };

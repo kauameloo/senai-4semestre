@@ -1,0 +1,21 @@
+.Modal {
+    width: 914px;
+    height: 472px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(30, 18, 59, 1);
+
+}
+
+.Overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed; 
+    inset: 0px; 
+    background-color: rgba(135, 88, 255, 0.75);
+}
