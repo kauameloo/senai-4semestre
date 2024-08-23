@@ -20,3 +20,9 @@ export const ButtonNew = styled.button`
 
   margin-top: 61.67px;
 `;
+
+export const ButtonConfirm = styled(ButtonNew)`
+  margin-top: 45px;
+  width: 322px;
+  height: 64px;
+`;
