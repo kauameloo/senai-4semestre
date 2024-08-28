@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B3A6F23-48A9-A346-E884-EF4F30D8B819" name="Cliente">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 19:23:57 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<engineerTo>
+<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idCliente" id="D592A257-DA66-3B1C-D5D3-3D4AFD1960A4">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 19:23:57 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<engineerTo>
+<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idUsuario" id="270E12CF-3DFA-2178-E9CC-F35CC7BB1014">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 19:37:55 UTC</createdTime>
+<generatorID>82FD772A-9518-B439-11B9-43AE07014917</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<engineerTo>
+<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+</engineerTo>
+<referedAttribute>2D0136A9-62E0-31B6-47AF-1ACB7247FAFE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C8C8A9AF-EA71-8CB8-BD5F-C29CF94E91B5" name="Endereco PK">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 19:23:57 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<engineerTo>
+<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D592A257-DA66-3B1C-D5D3-3D4AFD1960A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

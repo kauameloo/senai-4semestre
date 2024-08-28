@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AD878CF1-8A19-3BA4-25B1-8CCE6156F3E6" containerWithKeyObject="DE7B69D7-7A81-C810-252A-9D22E2C23C36" localFKIndex="135FCA12-D1A2-9B38-42F3-0E721300017A" name="Item_Carrinho_FK">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 19:43:00 UTC</createdTime>
+<generatorID>7EC83FE1-54B8-4233-C669-A7E986222921</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<referredTableLongName>Carrinho</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>14D0FE1E-B5D9-EFCA-F15D-BFA49EFDDE2C</referredTableID>
+<keyObject>6EB8E890-7D1F-F4C8-F29E-8FB29822B505</keyObject>
+<referredKeyID>6EB8E890-7D1F-F4C8-F29E-8FB29822B505</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idCarrinho</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14D0FE1E-B5D9-EFCA-F15D-BFA49EFDDE2C" name="Carrinho">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 19:43:00 UTC</createdTime>
+<generatorID>C0DB165E-4718-304C-70A3-CFAABCCA9E44</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCarrinho" id="E099EE78-F81B-4621-9F3D-83565B80DDC1">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 19:43:00 UTC</createdTime>
+<generatorID>2A338C9A-893F-F469-9352-3F3D04C49C05</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="20A8D22F-5BEE-8A34-236F-23385FAD306C">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 19:43:00 UTC</createdTime>
+<generatorID>E388CC45-CEA5-1BE2-9D96-3C1E2D5002BF</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedido_idPedido" id="129D28BC-D8D1-CCFA-E488-10B51D93321E">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 19:43:00 UTC</createdTime>
+<generatorID>2653C9B0-7A69-0063-28FF-64036BFF49F2</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6ABABD0-AAA8-EAE5-192A-42ECF081CB13" referredColumn="7B894C6C-0238-4FCA-AC87-CC3265BD8923"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6EB8E890-7D1F-F4C8-F29E-8FB29822B505" name="Carrinho_PK">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 19:43:00 UTC</createdTime>
+<generatorID>1B30D6AD-F1BB-D8E2-EFE1-9CA81C0FEECA</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E099EE78-F81B-4621-9F3D-83565B80DDC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12F16694-C34C-C82D-9157-BBFB7356CF31" name="Carrinho__IDX">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 19:43:00 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2CC47C0F-2B1F-7198-61AB-BED619F2D863</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="129D28BC-D8D1-CCFA-E488-10B51D93321E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AF68C07-B830-46C2-39A7-0CADA3B692B9" name="Carrinho_Pedido_FK">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 19:43:00 UTC</createdTime>
+<generatorID>2CC47C0F-2B1F-7198-61AB-BED619F2D863</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="129D28BC-D8D1-CCFA-E488-10B51D93321E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

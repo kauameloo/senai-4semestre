@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="fisico" id="9ED4C339-C6E6-9A9F-D0FB-655DA7F568A5" version="3.5">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 19:22:11 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9ED4C339-C6E6-9A9F-D0FB-655DA7F568A5</designId>
+</OSDM_Design>

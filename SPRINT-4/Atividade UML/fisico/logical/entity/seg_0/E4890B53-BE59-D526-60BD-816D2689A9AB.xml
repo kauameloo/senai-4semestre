@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4890B53-BE59-D526-60BD-816D2689A9AB" name="Restaurante">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 19:24:01 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<engineerTo>
+<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idRestaurante" id="E15A0558-6887-9D1B-CDFE-87F6D55F790E">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 19:24:01 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<engineerTo>
+<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="824299B4-D935-1908-FDEE-D1BF9967D48B">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 19:27:31 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<engineerTo>
+<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E15B43F5-EFE1-04A0-CD09-0493B930F874" name="Endereco PK">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 19:24:01 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<engineerTo>
+<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E15A0558-6887-9D1B-CDFE-87F6D55F790E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

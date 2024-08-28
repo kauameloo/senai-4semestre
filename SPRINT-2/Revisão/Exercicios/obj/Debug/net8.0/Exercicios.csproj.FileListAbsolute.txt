@@ -1,0 +1,15 @@
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\Revisão\Exercicios\bin\Debug\net8.0\Exercicios.exe
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\Revisão\Exercicios\bin\Debug\net8.0\Exercicios.deps.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\Revisão\Exercicios\bin\Debug\net8.0\Exercicios.runtimeconfig.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\Revisão\Exercicios\bin\Debug\net8.0\Exercicios.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\Revisão\Exercicios\bin\Debug\net8.0\Exercicios.pdb
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\Revisão\Exercicios\obj\Debug\net8.0\Exercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\Revisão\Exercicios\obj\Debug\net8.0\Exercicios.AssemblyInfoInputs.cache
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\Revisão\Exercicios\obj\Debug\net8.0\Exercicios.AssemblyInfo.cs
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\Revisão\Exercicios\obj\Debug\net8.0\Exercicios.csproj.CoreCompileInputs.cache
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\Revisão\Exercicios\obj\Debug\net8.0\Exercicios.sourcelink.json
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\Revisão\Exercicios\obj\Debug\net8.0\Exercicios.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\Revisão\Exercicios\obj\Debug\net8.0\refint\Exercicios.dll
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\Revisão\Exercicios\obj\Debug\net8.0\Exercicios.pdb
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\Revisão\Exercicios\obj\Debug\net8.0\Exercicios.genruntimeconfig.cache
+C:\Users\kaua-\OneDrive\Área de Trabalho\senai-4semestre\SPRINT-2\Revisão\Exercicios\obj\Debug\net8.0\ref\Exercicios.dll
