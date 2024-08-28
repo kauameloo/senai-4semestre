@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3064E145-3339-9E62-3B22-BDB32745B7F9" name="Pedido">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 20:09:39 UTC</createdTime>
+<generatorID>FA251E79-8B65-56BE-2ACD-72DDE4FE91CF</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPedido" id="13413668-0BD2-42F2-2EF9-EA7EA2C3760D">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 20:09:39 UTC</createdTime>
+<generatorID>B96D2963-D455-9BB9-321C-02E2210DB18E</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="formaPagamento" id="167F5783-D63A-11ED-EFFF-8326AABAE5B5">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 20:09:39 UTC</createdTime>
+<generatorID>26B9EEE6-7957-2301-43EB-72D1B7C78FBC</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataHora" id="735FFB88-0E1A-E112-5437-B5D5CBB4FF13">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 20:09:39 UTC</createdTime>
+<generatorID>4900F158-C223-ED17-0D47-5A0ADDA032B3</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="52B754F4-C8EA-ED3E-763A-DCEF6E96BCF4">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 20:09:39 UTC</createdTime>
+<generatorID>2C4CADF6-A6B1-04F3-44F1-8534D207073C</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_idCliente" id="02D3A565-B3FF-E6BE-9ADC-B7561FA25935">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 20:09:39 UTC</createdTime>
+<generatorID>63D9C0AC-EC04-C4E8-C415-7970962D7C92</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37BC1D07-F9F6-7617-EC9D-E15B918DF026" referredColumn="734BF0B3-24F4-857E-89F5-DC3A8C703DDE"/>
+</associations>
+</Column>
+<Column name="Restaurante_idRestaurante" id="BAED1494-E049-4858-FD2F-1312065069E6">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 20:09:39 UTC</createdTime>
+<generatorID>23EFC6FB-6DE4-C521-746F-BF4CF5C308C7</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92CCF00F-08A2-7280-F57B-DA96ECACFA21" referredColumn="9B538245-12CD-6272-4E58-A2C1547C9140"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0CD955C3-41E3-4352-E2E1-1ECE8A7B75DA" name="Pedido_PK">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 20:09:39 UTC</createdTime>
+<generatorID>32FF2508-1253-7C49-5F62-FD7BF96EBF2C</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13413668-0BD2-42F2-2EF9-EA7EA2C3760D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D955171-5140-D2D5-FA63-87E4C66C2A48" name="Pedido_Cliente_FK">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 20:09:39 UTC</createdTime>
+<generatorID>1375D7F6-48FA-21F0-2CFE-248F970D239A</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02D3A565-B3FF-E6BE-9ADC-B7561FA25935"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FADC38A1-5AB5-916D-3875-B3E3515DAAF5" name="Pedido_Restaurante_FK">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-28 20:09:39 UTC</createdTime>
+<generatorID>6EFC5070-2248-68CE-CC5A-A1FBE6C9F3EE</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAED1494-E049-4858-FD2F-1312065069E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
