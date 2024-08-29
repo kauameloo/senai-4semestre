@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0DEFD08-45E0-3F3C-A329-A8A63788941B" name="cliente">
+<sourceDDLFile>asd.ddl</sourceDDLFile>
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<importedID>9985717B-38C7-15EA-E7C7-BACFC87CA737</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idcliente" id="9D7264AE-6390-4A8E-D55F-42AB3C5D3E5F">
+<sourceDDLFile>asd.ddl</sourceDDLFile>
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<importedID>990FB071-C7A0-F77D-9DCC-243DD7566FEC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>27246F71-0564-1FA1-62F2-F51C21E862CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario_idusuario" id="655C05F8-735E-360E-6550-C390BE6D93AB">
+<sourceDDLFile>asd.ddl</sourceDDLFile>
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<importedID>EC10F17F-B2FE-F628-3324-F52E33C99F56</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>27246F71-0564-1FA1-62F2-F51C21E862CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F305F7CC-AC97-3CD5-B814-351374952241" referredColumn="E73FD8C7-FC1D-5444-3884-7FEE8A779AB7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67FD825E-3152-275C-F0E5-9FE00525DDD7" name="cliente_pk">
+<sourceDDLFile>asd.ddl</sourceDDLFile>
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<importedID>90EC5E66-0EC3-43A5-B210-60AFDAB92A20</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D7264AE-6390-4A8E-D55F-42AB3C5D3E5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B36C0EF9-9414-376D-6D89-D303CE22E2A5" name="cliente__idx">
+<sourceDDLFile>asd.ddl</sourceDDLFile>
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<importedID>11AC6672-C443-5E78-71E4-E735ACD00D99</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="655C05F8-735E-360E-6550-C390BE6D93AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD6D162D-CCCC-6688-7224-D029D3B4B5A9" name="cliente_usuario_fk">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="655C05F8-735E-360E-6550-C390BE6D93AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="asd" id="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" mainViewID="2EFDD02A-D80F-EF5A-A363-BA9B2F600F01">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:43 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>asd.ddl</fileName>
+<pathName>C:\Users\kaua-\OneDrive\Área de Trabalho</pathName>
+<dbType>9</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="endereco" directorySegmentName="seg_0" id="1461A76C-8388-EE5A-4CA1-E8B22679B848">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="numero" id="4E2328C3-10B2-F31D-E6BE-C9B8BFC5152D">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="idendereco" id="79F414CE-710F-C1A0-3913-CC59ACC2C473">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="idusuario" id="B8DA6485-056B-E86B-4263-B5E9291E9C55">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="idrestaurante" id="E8857E8B-65A8-847E-9E91-5CDE34235688">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="logradouro" id="F7D2841A-23D8-80F8-FBF7-83CFA314CE41">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="complemento" id="FE2BF964-7284-E1DB-4CEC-6ADE32A18B2B">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="endereco_usuario_fk" id="2A47B609-700B-A740-94A7-7D548FC7316B">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="endereco_restaurante_fk" id="9B8371BA-F89A-4347-B925-1C003B0008BD">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="endereco_pk" id="E1ECC40A-BFCC-9689-CCDB-A9365EC8B3FA">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

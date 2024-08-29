@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="carrinho" directorySegmentName="seg_0" id="4D84E65D-034D-1909-F515-0DDB9CF7C064">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="idcarrinho" id="33D427D0-D4DA-FE0E-085E-B818884FFBCD">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="total" id="8AFD0E6A-0E54-ACF6-4365-6D7F8B5C4885">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="carrinho_pk" id="DA5CAD7C-FB8C-31CA-3196-AD461843611A">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

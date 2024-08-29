@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BE8F6ED-79C5-0977-FE95-B2B31893E8A5" name="item">
+<sourceDDLFile>asd.ddl</sourceDDLFile>
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<importedID>46DE87F4-5B72-DF41-B84D-65A97D844347</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="iditem" id="B36BC6EA-5287-589E-6695-0277A36E4292">
+<sourceDDLFile>asd.ddl</sourceDDLFile>
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<importedID>7D6863B4-C79A-2866-A82A-6D61E0EE0666</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>27246F71-0564-1FA1-62F2-F51C21E862CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="9FE7F756-8932-0F16-36AD-4113877E709D">
+<sourceDDLFile>asd.ddl</sourceDDLFile>
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<importedID>8B116BFA-2906-8548-5038-857FC27B742C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D65D92E5-BD98-679E-1350-B1E919FD122B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade" id="E6E45C38-13CC-5362-E90C-884726831148">
+<sourceDDLFile>asd.ddl</sourceDDLFile>
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<importedID>2B844874-21D7-307D-8786-E2F470D78CDC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>2104F70D-A843-74A5-8A48-B6BE5052D094</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco" id="0071AB79-E347-FB94-AD6D-F720AD22B8F1">
+<sourceDDLFile>asd.ddl</sourceDDLFile>
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<importedID>49E8F005-15A4-2290-C0D0-EDA3D793851B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>4706646B-C57F-9A47-6CE0-B84329995BAE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="carrinho_idcarrinho" id="83247453-3185-EE32-538A-F814D852BE07">
+<sourceDDLFile>asd.ddl</sourceDDLFile>
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<importedID>82072F77-092C-F1E3-31D4-78BB014DFA95</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>27246F71-0564-1FA1-62F2-F51C21E862CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4EB222A7-A866-98C6-F34C-B7E5925CD179" referredColumn="33D427D0-D4DA-FE0E-085E-B818884FFBCD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F692F4F0-928E-3C0D-2674-C493ADBB5506" name="item_pk">
+<sourceDDLFile>asd.ddl</sourceDDLFile>
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<importedID>6C3DD1A3-0B31-74EF-7CCB-9CEBC08EEF62</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B36BC6EA-5287-589E-6695-0277A36E4292"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2A989FF-2CC0-D15F-C39A-5E85D480BEBC" name="item_carrinho_fk">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83247453-3185-EE32-538A-F814D852BE07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

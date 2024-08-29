@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="61ED6CEF-B7E1-7B1A-1CAD-0B530E90D983" name="restaurante">
+<sourceDDLFile>asd.ddl</sourceDDLFile>
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<importedID>288E7A12-F139-CDAD-D055-60C18275475D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idrestaurante" id="2677281B-9671-2904-92F4-6D3119894DEC">
+<sourceDDLFile>asd.ddl</sourceDDLFile>
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<importedID>DF22CD22-80BD-23C6-E1E7-E916FC0716F1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>27246F71-0564-1FA1-62F2-F51C21E862CE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="968729FB-30FA-DF31-1B32-3BAA2A093896">
+<sourceDDLFile>asd.ddl</sourceDDLFile>
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<importedID>555EBFD4-F04D-A71D-400E-EFC5F330FD46</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C879AC6E-4322-715E-F33D-92A0D839C3B1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B58E29B7-6778-3963-1FF3-694492D002BA" name="restaurante_pk">
+<sourceDDLFile>asd.ddl</sourceDDLFile>
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:06:52 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<importedID>5767244A-EDB8-56EE-07B5-BCD5AC83560D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2677281B-9671-2904-92F4-6D3119894DEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

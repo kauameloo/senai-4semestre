@@ -4,7 +4,8 @@
 <createdTime>2024-08-28 19:23:57 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +21,8 @@
 <createdTime>2024-08-28 19:23:57 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +34,8 @@
 <createdTime>2024-08-28 19:25:13 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,7 +49,8 @@
 <createdTime>2024-08-28 19:25:36 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,7 +64,8 @@
 <createdTime>2024-08-28 19:25:58 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -74,7 +79,8 @@
 <createdTime>2024-08-28 19:26:12 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -83,6 +89,21 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="idRestaurante" id="2D4900E5-4A21-7B54-7BFF-99F2E9FECA7E">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 18:01:56 UTC</createdTime>
+<generatorID>D02BFDCE-5219-5290-EE35-B8CDA0E9C15C</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<engineerTo>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
+</engineerTo>
+<referedAttribute>E15A0558-6887-9D1B-CDFE-87F6D55F790E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E53BE77E-ECF0-005A-486F-9AADE94961C2" name="Endereco PK">
@@ -90,7 +111,8 @@
 <createdTime>2024-08-28 19:23:57 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

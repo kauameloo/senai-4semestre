@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E91FF7C0-FBD8-C97D-DB68-ADE96CEE5C2A" name="Cliente">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 17:56:17 UTC</createdTime>
+<generatorID>6B3A6F23-48A9-A346-E884-EF4F30D8B819</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCliente" id="D22628C8-5136-79BD-780E-3B7FE065A364">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 17:56:17 UTC</createdTime>
+<generatorID>D592A257-DA66-3B1C-D5D3-3D4AFD1960A4</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario_idUsuario" id="52302AEF-7074-170B-B5B5-A17AD10F0C67">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 17:56:17 UTC</createdTime>
+<generatorID>270E12CF-3DFA-2178-E9CC-F35CC7BB1014</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="26C8B352-C6EA-2E2F-8B20-47D58CA63D98" referredColumn="5C6D24CB-1BB2-E290-C912-07555C7C46C7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB5BDED1-8810-378C-0476-BE93CA9D5FCD" name="Cliente_PK">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 17:56:17 UTC</createdTime>
+<generatorID>C8C8A9AF-EA71-8CB8-BD5F-C29CF94E91B5</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D22628C8-5136-79BD-780E-3B7FE065A364"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88949B6F-5186-C6AE-711B-0B1173E88F89" name="Cliente__IDX">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 17:56:17 UTC</createdTime>
+<ownerDesignName>fisico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>82FD772A-9518-B439-11B9-43AE07014917</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="52302AEF-7074-170B-B5B5-A17AD10F0C67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0186503-4DD5-513E-80BD-17301C20A053" name="Cliente_Usuario_FK">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 17:56:17 UTC</createdTime>
+<generatorID>82FD772A-9518-B439-11B9-43AE07014917</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52302AEF-7074-170B-B5B5-A17AD10F0C67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

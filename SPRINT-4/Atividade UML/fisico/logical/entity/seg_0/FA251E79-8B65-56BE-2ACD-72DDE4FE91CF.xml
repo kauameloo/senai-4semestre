@@ -4,7 +4,8 @@
 <createdTime>2024-08-28 19:24:05 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +21,8 @@
 <createdTime>2024-08-28 19:24:05 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +34,8 @@
 <createdTime>2024-08-28 19:28:28 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,7 +49,8 @@
 <createdTime>2024-08-28 19:28:59 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -59,7 +63,8 @@
 <createdTime>2024-08-28 19:29:09 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -74,7 +79,8 @@
 <generatorID>1375D7F6-48FA-21F0-2CFE-248F970D239A</generatorID>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <referedAttribute>D592A257-DA66-3B1C-D5D3-3D4AFD1960A4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -88,9 +94,25 @@
 <generatorID>6EFC5070-2248-68CE-CC5A-A1FBE6C9F3EE</generatorID>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <referedAttribute>E15A0558-6887-9D1B-CDFE-87F6D55F790E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idCarrinho" id="B4EE6E81-CBFB-87E4-5314-F2422492D68A">
+<createdBy>kaua-</createdBy>
+<createdTime>2024-08-29 17:42:52 UTC</createdTime>
+<generatorID>081CCB4C-75C1-00BF-D849-2C0BE74AEACC</generatorID>
+<ownerDesignName>fisico</ownerDesignName>
+<engineerTo>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
+</engineerTo>
+<referedAttribute>2A338C9A-893F-F469-9352-3F3D04C49C05</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT057</logicalDatatype>
@@ -103,7 +125,8 @@
 <createdTime>2024-08-28 19:24:05 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

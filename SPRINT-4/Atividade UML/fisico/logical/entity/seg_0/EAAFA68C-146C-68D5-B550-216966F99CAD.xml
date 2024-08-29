@@ -4,7 +4,8 @@
 <createdTime>2024-08-28 19:24:06 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +21,8 @@
 <createdTime>2024-08-28 19:24:06 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +34,8 @@
 <createdTime>2024-08-28 19:33:27 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,7 +49,8 @@
 <createdTime>2024-08-28 19:33:36 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -59,7 +63,8 @@
 <createdTime>2024-08-28 19:33:50 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -69,13 +74,14 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,8,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="idCarrinho" id="62FA5401-872B-F9E9-0786-8B4032260D20">
+<Attribute name="idCarrinho" id="97963379-C401-4EB1-E69A-92A082404A93">
 <createdBy>kaua-</createdBy>
-<createdTime>2024-08-28 19:42:05 UTC</createdTime>
-<generatorID>7EC83FE1-54B8-4233-C669-A7E986222921</generatorID>
+<createdTime>2024-08-29 18:02:16 UTC</createdTime>
+<generatorID>D2F7FBB4-EA01-C863-E9AA-96CD47B7D310</generatorID>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <referedAttribute>2A338C9A-893F-F469-9352-3F3D04C49C05</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -90,7 +96,8 @@
 <createdTime>2024-08-28 19:24:06 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

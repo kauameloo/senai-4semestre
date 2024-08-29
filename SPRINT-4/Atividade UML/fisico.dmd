@@ -5,4 +5,9 @@
 <ownerDesignName>fisico</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>9ED4C339-C6E6-9A9F-D0FB-655DA7F568A5</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="16A4A82E-1634-7AF3-C139-8EEA34496C6F">
+<designStoragePath>C:\asd</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>

@@ -1,10 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="ABE3C987-29FB-19BB-FEE6-141261D78886">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_25" directorySegmentName="seg_0" id="B501E7EC-A806-ECEA-FC45-9BAD9FA627F8">
 <createdBy>kaua-</createdBy>
-<createdTime>2024-08-28 19:42:30 UTC</createdTime>
+<createdTime>2024-08-29 18:02:10 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
-<item key="8AB939BC-E69E-3E58-F767-D86BBFDAE047" value="true"/>
+<item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
+<item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
 <sourcePk>E15B43F5-EFE1-04A0-CD09-0493B930F874</sourcePk>
 <identifying>false</identifying>

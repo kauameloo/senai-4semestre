@@ -1,20 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="82FD772A-9518-B439-11B9-43AE07014917">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_26" directorySegmentName="seg_0" id="D2F7FBB4-EA01-C863-E9AA-96CD47B7D310">
 <createdBy>kaua-</createdBy>
-<createdTime>2024-08-28 19:37:55 UTC</createdTime>
+<createdTime>2024-08-29 18:02:16 UTC</createdTime>
 <ownerDesignName>fisico</ownerDesignName>
 <engineerTo>
 <item key="AA9C5E00-D03A-B5F4-12D0-C43FE0A9EC5E" value="true"/>
 <item key="9EC5F634-4CB5-7AA3-D458-E53AF9BAAEDF" value="true"/>
 </engineerTo>
-<sourcePk>E53BE77E-ECF0-005A-486F-9AADE94961C2</sourcePk>
+<sourcePk>1B30D6AD-F1BB-D8E2-EFE1-9CA81C0FEECA</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>9EACEC87-1477-058B-7061-B6A43BE15B1E</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
-<targetEntity>6B3A6F23-48A9-A346-E884-EF4F30D8B819</targetEntity>
+<sourceEntity>C0DB165E-4718-304C-70A3-CFAABCCA9E44</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EAAFA68C-146C-68D5-B550-216966F99CAD</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
